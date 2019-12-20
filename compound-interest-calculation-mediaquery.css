@@ -1,0 +1,64 @@
+
+
+
+#wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 5rem;
+  color: darkred;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: darkred;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: darkred;
+}
+
+input {
+  border: 1px darkred solid;
+  width: 100%;
+  padding: 0.75rem 0;
+  font-size: 1rem;
+  background: #fff;
+}
+
+input:focus {
+  background: darkred;
+  color: #fff;
+}
+
+input.selected {
+  border: none;
+}
+
+#result {
+  font-size: 1rem;
+  border: 1px darkred solid;
+  width: 100%;
+  border-radius: 10px;
+  background: darkred;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 0;
+}
