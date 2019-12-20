@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS3/compound-interest-calculation.css">
+  <title>Compound Interest Calculation</title>
+</head>
+<body>
+
+  <div id="wrapper">
+  <h1>Compound Interest Calculation</h1>
+
+        <div> 
+          <label for="princible">Amount: </label> 
+          <input id="p"> 
+        </div>
+        <div> 
+          <label for="rate">Interest Rate (%): </label> 
+          <input id="i"> 
+        </div>
+        <div> 
+          <label for="no-of-years">No. of Years: </label> 
+          <input id="n"> 
+        </div>
+        <div> 
+          <label for="no-of-times">Compounding Times Per Year:  </label> 
+          <input id="q"> 
+        </div>
+        <button onclick="calculate()">Calculate</button>
+
+        <p id="result"></p>
+  <!-- end wrapper -->
+</div>
+
+
+
+  <script src="Js/compound-interest-calculation.js"></script>
+</body>
+</html>
