@@ -4,11 +4,13 @@
 }
 
 #wrapper {
-  width: 30%;
+  width: 50%;
   margin: auto;
+  padding-right: 1.5rem;
 }
 
 h1 {
+  margin-top: 5rem;
   color: darkred;
   font-size: 1.7rem;
   text-align: center;
@@ -19,7 +21,7 @@ div {
 }
 
 button {
-  margin-left: 0.5rem;
+  margin-top: 0.5rem;
   border: none;
   padding: 1rem 2rem;
   color: #fff;
@@ -43,14 +45,19 @@ label {
 input {
   border: 1px darkred solid;
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.75rem 0;
   font-size: 1.2rem;
   background: #fff;
 }
 
+
 input:focus {
   background: darkred;
-  color: #fff;
+}
+
+input.current {
+  color: #000;
+  padding-left: 1rem;
 }
 
 input.selected {
@@ -60,11 +67,10 @@ input.selected {
 #result {
   font-size: 1.2rem;
   border: 1px darkred solid;
-  margin-left: 0.5rem;
   width: 100%;
   border-radius: 10px;
   background: darkred;
   color: #fff;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
