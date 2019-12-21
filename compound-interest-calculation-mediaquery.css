@@ -4,6 +4,7 @@
 #wrapper {
   width: 70%;
   margin: auto;
+  padding-right: 1.5rem;
 }
 
 h1 {
@@ -43,14 +44,16 @@ input {
   background: #fff;
 }
 
+
 input:focus {
   background: darkred;
-  color: #fff;
 }
 
-input.selected {
-  border: none;
+input.current {
+  color: #000;
+  padding-left: 1rem;
 }
+
 
 #result {
   font-size: 1rem;
